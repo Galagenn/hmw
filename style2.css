@@ -1,0 +1,68 @@
+*{ 
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background: url("./photo/названия.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	height: 100%;
+}
+.container{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	border-bottom: 1px solid black;
+	padding: 10px 0;
+}
+.list{
+	display: flex;
+	justify-content: space-around;
+}
+.list-item{
+    list-style-type: none;
+}
+.link:hover{
+	color: red;
+}
+.link{
+	text-decoration: none;
+}
+.link:hover {
+	color: black;
+	border-bottom: 2px solid black;
+}
+.iconka{
+	width: 700px;
+	height: 360px;
+	padding: 50px 130px;
+}
+.news-header-one{
+	text-align: center;
+	margin: 5px 0;
+	padding-top: 20px;
+	font-size: 50px;
+}
+.text{
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+.section-one{
+	margin: 0 20px;
+}
+.section-two{
+	border-top: 2px solid black;
+}
+.angular{
+	width: 100px;
+	height: 100px;
+	display: flex;
+	display: inline;
+}
+.angular-img{
+	display: flex;
+	background:center ;
+}
